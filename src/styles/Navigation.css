@@ -1,0 +1,30 @@
+nav.menu {}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  /* background-color: black; */
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  color: #222222;
+  /* background-color: blue; */
+  font-size: 30px;
+  line-height: 50px;
+  width: 200px;
+  transition: .2;
+}
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+
+}

@@ -10,10 +10,10 @@
 aside.navigation {
   position: fixed;
   width: 100%;
-  background-color: white;
   z-index: 1;
   font-size: 20px;
-  padding: 10px 0;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 header {
