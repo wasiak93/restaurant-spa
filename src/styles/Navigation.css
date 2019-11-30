@@ -16,7 +16,6 @@ nav.menu {}
   text-decoration: none;
   display: block;
   color: #222222;
-  /* background-color: blue; */
   font-size: 30px;
   line-height: 50px;
   width: 200px;
@@ -27,4 +26,13 @@ nav.menu {}
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
 
+}
+
+/* .menu .active:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #222222
+} */
+
+.menu .active {
+  background-color: rgba(0, 0, 0, 0.3);
 }
