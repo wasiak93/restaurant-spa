@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <>
       <img src={img1} alt="" />
+      <h1>Smakowite Bistro</h1>
     </>
   );
 };
