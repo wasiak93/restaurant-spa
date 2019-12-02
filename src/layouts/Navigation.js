@@ -13,13 +13,13 @@ const Navigation = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="menu">Menu</NavLink>
+            <NavLink to="/menu">Menu</NavLink>
           </li>
           <li>
-            <NavLink to="contact">Kontakt</NavLink>
+            <NavLink to="/contact">Kontakt</NavLink>
           </li>
           <li>
-            <NavLink to="prom">Promocje</NavLink>
+            <NavLink to="/prom">Promocje</NavLink>
           </li>
         </ul>
       </nav>
