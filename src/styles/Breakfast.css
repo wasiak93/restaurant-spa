@@ -1,0 +1,76 @@
+.meal {
+  padding-bottom: 50px;
+}
+
+.meal h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.meal .text {
+  display: flex;
+  background-color: grey;
+}
+
+.meal nav {
+  flex-basis: 200px;
+  margin: 50px;
+  padding: 1px 0px;
+  background-color: rgba(248, 232, 9, 0.267);
+  border-radius: 50px;
+}
+
+.meal ul {
+  list-style: none;
+}
+
+.meal a {
+  display: block;
+  width: 150px;
+  margin: 50px auto;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: black solid 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.meal a:hover {
+  background-color: #ddd;
+}
+
+
+.meal .active {
+  background-color: rgba(248, 232, 9, 0.65);
+}
+
+.meal .content {
+  /* display: flex; */
+  flex-grow: 1;
+  padding: 50px;
+  background-color: pink;
+
+}
+
+.meal .header_meal {
+  display: flex;
+  padding: 20px 0px 5px 0px;
+}
+
+.header_meal h2 {
+  flex-grow: 1;
+  font-size: 24px;
+}
+
+.header_meal .price {
+  flex-basis: 100px;
+  margin-right: 50px;
+  font-size: 24px;
+}
