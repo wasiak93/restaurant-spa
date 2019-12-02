@@ -10,9 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <aside className="navigation">
-          <Navigation />
-        </aside>
+        <aside className="navigation">{<Navigation />}</aside>
         <header>
           <Header />
         </header>

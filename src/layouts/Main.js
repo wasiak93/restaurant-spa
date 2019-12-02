@@ -1,8 +1,8 @@
 import React from "react";
 import { Route } from "react-router-dom";
+import About from "../pages/About";
+import Menu from "../pages/Menu";
 
-const About = () => <h2> o nas</h2>;
-const Menu = () => <h2> menu</h2>;
 const Contact = () => <h2> kontakt</h2>;
 const Prom = () => <h2> promocje</h2>;
 
