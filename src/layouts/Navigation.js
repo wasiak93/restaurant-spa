@@ -5,7 +5,7 @@ import "../styles/Navigation.css";
 const Navigation = () => {
   return (
     <>
-      <nav className="menu">
+      <nav className="navigation">
         <ul>
           <li>
             <NavLink to="/" exact>
