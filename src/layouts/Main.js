@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import About from "../pages/About";
 import Menu from "../pages/Menu";
+import Breakfast from "../components/Breakfast";
 
 const Contact = () => <h2> kontakt</h2>;
 const Prom = () => <h2> promocje</h2>;
@@ -12,7 +13,10 @@ const Main = () => {
     <div>
       <Switch>
         <Route path="/" exact component={About} />
-        <Route path="/menu" component={Menu} />
+        <Route path="/menu" exact component={Menu} />
+        <Route path="/menu/breakfast" component={Breakfast} />
+        {/* <Route path="/menu/lunch" component={Lunch} /> */}
+        {/* <Route path="/menu/cart" component={Cart} /> */}
         <Route path="/contact" component={Contact} />
         <Route path="/prom" component={Prom} />
         <Route component={ErrorPage} />
