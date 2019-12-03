@@ -11,12 +11,11 @@
 
 .meal .text {
   display: flex;
-  background-color: grey;
 }
 
 .meal nav {
   flex-basis: 200px;
-  margin: 50px;
+  margin: 0 50px 50px 50px;
   padding: 1px 0px;
   background-color: rgba(248, 232, 9, 0.267);
   border-radius: 50px;
@@ -54,9 +53,6 @@
 .meal .content {
   /* display: flex; */
   flex-grow: 1;
-  padding: 50px;
-  background-color: pink;
-
 }
 
 .meal .header_meal {

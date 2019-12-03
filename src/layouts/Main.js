@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import About from "../pages/About";
 import Menu from "../pages/Menu";
-import Breakfast from "../components/Breakfast";
+import Meals from "../components/Meals";
 
 const Contact = () => <h2> kontakt</h2>;
 const Prom = () => <h2> promocje</h2>;
@@ -14,7 +14,7 @@ const Main = () => {
       <Switch>
         <Route path="/" exact component={About} />
         <Route path="/menu" exact component={Menu} />
-        <Route path="/menu/breakfast" component={Breakfast} />
+        <Route path="/menu/:id" component={Meals} />
         {/* <Route path="/menu/lunch" component={Lunch} /> */}
         {/* <Route path="/menu/cart" component={Cart} /> */}
         <Route path="/contact" component={Contact} />
