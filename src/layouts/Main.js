@@ -15,8 +15,6 @@ const Main = () => {
         <Route path="/" exact component={About} />
         <Route path="/menu" exact component={Menu} />
         <Route path="/menu/:id" component={Meals} />
-        {/* <Route path="/menu/lunch" component={Lunch} /> */}
-        {/* <Route path="/menu/cart" component={Cart} /> */}
         <Route path="/contact" component={Contact} />
         <Route path="/prom" component={Prom} />
         <Route component={ErrorPage} />
