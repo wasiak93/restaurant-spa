@@ -25,7 +25,6 @@ const Opinion = class Opinion extends Component {
     });
 
   render() {
-    // console.log(typeof maxDate);
     return (
       <div className="opinion">
         <p>Byłeś już u nas?</p>

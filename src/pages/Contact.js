@@ -1,9 +1,10 @@
 import React from "react";
 import Opinion from "../components/Opinion.js";
+import "../styles/Contact.css";
 
 const Contact = () => {
   return (
-    <>
+    <div className="contact">
       <div className="info">
         <p>Krakowskie Przedmieście 1</p>
         <p>Godziny otwarcia: </p>
@@ -12,7 +13,7 @@ const Contact = () => {
       </div>
 
       <Opinion />
-    </>
+    </div>
   );
 };
 
