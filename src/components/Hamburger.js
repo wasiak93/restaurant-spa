@@ -11,11 +11,11 @@ class Hamburger extends Component {
     });
   };
   render() {
-    const classes = ["hamburger-box"];
+    const classes = ["hamburger"];
     if (this.state.active) classes.push("hamburger-active");
     return (
-      <button className="hamburger" onClick={this.handleClick}>
-        <span className={classes.join(" ")}>
+      <button className={classes.join(" ")} onClick={this.handleClick}>
+        <span className="hamburger-box">
           <span className="hamburger-inner"></span>
         </span>
       </button>

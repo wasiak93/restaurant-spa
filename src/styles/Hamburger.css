@@ -5,6 +5,7 @@
   background-color: transparent;
   border: 0;
   margin: 0;
+  outline: none;
 }
 
 .hamburger-box {
@@ -44,4 +45,16 @@
 
 .hamburger-inner::after {
   top: 10px
+}
+
+.hamburger-active .hamburger-inner {
+  background-color: transparent;
+}
+
+.hamburger-active .hamburger-inner::before {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger-active .hamburger-inner::after {
+  transform: translateY(-10px) rotate(-45deg);
 }
