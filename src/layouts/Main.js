@@ -6,8 +6,6 @@ import Meals from "../components/Meals";
 import Contact from "../pages/Contact";
 import Prom from "../pages/Prom.js";
 
-// const Contact = () => <h2> kontakt</h2>;
-// const Prom = () => <h2> promocje</h2>;
 const ErrorPage = () => <h2>podana strona nie istnieje</h2>;
 
 const Main = () => {

@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 150vh;
+  /* min-height: 150vh; */
   width: 100%;
   margin: 0 auto;
   font-family: arial;
@@ -27,4 +27,5 @@ section.main {
 
 footer {
   flex-basis: auto;
+  background-color: black;
 }
