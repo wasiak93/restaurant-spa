@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navigation.css";
+import Hamburger from "../components/Hamburger";
 
 const list = [
   { id: 1, name: "O nas", path: "/", exact: true },
@@ -26,14 +27,15 @@ const list = [
 const Navigation = () => {
   const menu = list.map(item => (
     <li key={item.id}>
-      <NavLink to={item.path} exact={item.exact}>
+      <NavLink to={item.path} exact={item.exact} className="menu-item">
         {item.name}
       </NavLink>
     </li>
   ));
   return (
     <>
-      <nav className="navigation">
+      <Hamburger />
+      <nav className="main-nav">
         <ul>{menu}</ul>
       </nav>
     </>
