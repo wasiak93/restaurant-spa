@@ -6,7 +6,8 @@ import img4 from "../images/restaurant4.jpg";
 import "../styles/Header.css";
 
 class Header extends Component {
-  state = { width: "" };
+  startWidth = window.innerWidth;
+  state = { width: this.startWidth };
   handleResize = () => {
     const width = window.innerWidth;
     this.setState({
@@ -19,6 +20,7 @@ class Header extends Component {
 
   render() {
     const { width } = this.state;
+
     let imgActual = "";
     console.log(width);
     if (width < 460) {
