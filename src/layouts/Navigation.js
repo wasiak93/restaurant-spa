@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Navigation.css";
 import Hamburger from "../components/Hamburger";
@@ -24,22 +24,35 @@ const list = [
     exact: false
   }
 ];
-const Navigation = () => {
-  const menu = list.map(item => (
-    <li key={item.id}>
-      <NavLink to={item.path} exact={item.exact} className="menu-item">
-        {item.name}
-      </NavLink>
-    </li>
-  ));
-  return (
-    <>
-      <Hamburger />
-      <nav className="main-nav">
-        <ul>{menu}</ul>
-      </nav>
-    </>
-  );
-};
+
+class Navigation extends Component {
+  state = {
+    active: false
+  };
+  handleClick = () => {
+    this.setState({
+      active: !this.state.active
+    });
+  };
+  render() {
+    const menu = list.map(item => (
+      <li key={item.id} className="menu-item">
+        <NavLink to={item.path} exact={item.exact}>
+          {item.name}
+        </NavLink>
+      </li>
+    ));
+    const classesNav = ["main-nav"];
+    if (this.state.active) classesNav.push("nav-active");
+    return (
+      <>
+        <Hamburger click={this.handleClick} active={this.state.active} />
+        <nav className={classesNav}>
+          <ul>{menu}</ul>
+        </nav>
+      </>
+    );
+  }
+}
 
 export default Navigation;

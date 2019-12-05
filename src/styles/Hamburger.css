@@ -8,6 +8,10 @@
   outline: none;
 }
 
+.hamburger:active {
+  background-color: transparent;
+}
+
 .hamburger-box {
   position: relative;
   display: inline-block;
@@ -25,6 +29,7 @@
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  transition: .2s
 }
 
 .hamburger-inner::before,
@@ -37,6 +42,7 @@
   height: 5px;
   top: 0;
   left: 0;
+  transition: .2s
 }
 
 .hamburger-inner::before {
