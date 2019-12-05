@@ -13,7 +13,7 @@ const proms = [
 const Prom = () => {
   const promList = proms.map(item => (
     <div key={item.day}>
-      <h1>W każdy: {item.day}</h1>
+      <h2>W każdy: {item.day}</h2>
       <p>{item.discount}</p>
     </div>
   ));

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="info">
-        <p>Krakowskie Przedmieście 1</p>
+        <h2>Nowy Świat 1</h2>
         <p>Godziny otwarcia: </p>
         <p>Poniedziałek - Niedziela </p>
         <p>8:00 - 24:00</p>

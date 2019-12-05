@@ -4,7 +4,7 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div className="about">
-      <h1>Witajcie w naszej bajce</h1>
+      <h2>Witajcie w naszej bajce</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque suscipit
         reiciendis impedit officia excepturi quo, fugit doloremque facilis hic
@@ -18,21 +18,6 @@ const About = () => {
         laudantium officiis et dolorem perspiciatis ea sapiente eligendi.
         Explicabo, nulla consequuntur? Id, ad, voluptas dolor dolorem sequi
         nostrum voluptatibus earum autem non, a alias sit! Voluptates mollitia
-        nostrum perferendis velit et ut eius deserunt rerum. Voluptas, unde
-        ducimus. Tempore obcaecati rem sed dolor eveniet recusandae doloremque
-        vitae earum amet aliquid nobis in suscipit cupiditate culpa, autem,
-        tempora similique excepturi quos? Illum quae, harum obcaecati labore est
-        saepe at! Excepturi deleniti sint beatae ipsum veniam magni quo vitae
-        laudantium quis? Explicabo aperiam magnam, pariatur minus est voluptate
-        praesentium perferendis ea dolorem, iste dolorum asperiores! Repudiandae
-        voluptas dolore provident doloribus. Debitis, necessitatibus molestiae
-        voluptas qui obcaecati porro? Officiis rem facilis nemo consequuntur
-        repellat facere voluptate, pariatur ipsa voluptas nihil. Amet, autem?
-        Totam cum accusamus, doloribus tenetur impedit enim molestiae nostrum?
-        Porro dicta consequuntur, itaque dignissimos quos asperiores excepturi
-        aut accusantium earum corporis natus accusamus eligendi vitae aliquam
-        aspernatur, aliquid soluta velit, id nihil fuga error. Ducimus vitae
-        possimus magnam nostrum?
       </p>
     </div>
   );

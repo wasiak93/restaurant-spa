@@ -1,11 +1,13 @@
-.about h1 {
+h2 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 28px;
+  padding: 0 6px;
 }
 
-.about p {
-  padding: 50px 100px 20px;
+p {
+  padding: 20px 10px;
+  text-align: justify;
   line-height: 1.5;
   font-size: 18px;
 }
