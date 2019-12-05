@@ -47,7 +47,7 @@ class Navigation extends Component {
     return (
       <>
         <Hamburger click={this.handleClick} active={this.state.active} />
-        <nav className={classesNav}>
+        <nav className={classesNav.join(" ")}>
           <ul>{menu}</ul>
         </nav>
       </>

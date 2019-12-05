@@ -1,28 +1,39 @@
 .main-nav {
   height: 100vh;
-  width: 100px;
-  background-color: red;
-  position: absolute;
+  width: 130px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
-  transform: translateX(-100px);
+  transform: translateX(-130px);
+  transition: .3s;
+}
+
+.nav-active {
+  transform: translateX(0);
 }
 
 .main-nav ul {
   list-style: none;
-  margin-top: 50px;
+  margin-top: 50px
 }
 
 .menu-item {
   margin-bottom: 20px;
-  color: white
+  color: white;
+
 }
 
 .menu-item a {
+  display: inline-block;
   text-decoration: none;
   color: black;
-
+  cursor: pointer;
+  width: 100%;
+  padding: 0 20px 0 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 
