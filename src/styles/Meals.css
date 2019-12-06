@@ -1,5 +1,5 @@
 .meal {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 
@@ -61,6 +61,8 @@
 .meal .content {
   /* display: flex; */
   flex-grow: 1;
+  width: 90%;
+  margin: auto;
 }
 
 .meal .header_meal {
@@ -68,16 +70,23 @@
   padding: 20px 0px 5px 0px;
 }
 
-.header_meal h2 {
+.header_meal h3 {
   flex-grow: 1;
-  font-size: 24px;
 }
 
 .header_meal .price {
-  flex-basis: 100px;
-  margin-right: 50px;
+  flex-basis: 50px;
+  padding: 0 10px 0 0;
+  color: black;
+  line-height: 1;
   font-size: 24px;
 }
+
+.ingridents {
+  padding: 10px 0;
+}
+
+
 
 @media (min-width: 360px) and (max-width: 479px) {
   .meal a {
@@ -99,6 +108,8 @@
   .meal a {
     font-size: 16px;
   }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -117,6 +128,12 @@
     font-size: 24px;
     padding: 10px;
   }
+
+  .meal .content {
+    width: 80%;
+    margin: 30px auto 0;
+  }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1223px) {
@@ -134,6 +151,11 @@
   .meal a {
     font-size: 24px;
     padding: 10px;
+  }
+
+  .meal .content {
+    width: 80%;
+    margin: 40px auto 0;
   }
 }
 
@@ -153,6 +175,19 @@
     font-size: 28px;
     padding: 10px;
   }
+
+  .meal .content {
+    width: 80%;
+    margin: 40px auto 0;
+  }
+
+  .header_meal h3 {
+    font-size: 28px;
+  }
+
+  .header_meal .price {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1824px) {
@@ -170,5 +205,19 @@
   .meal a {
     font-size: 32px;
     padding: 15px;
+  }
+
+  .meal .content {
+    width: 80%;
+    /* max-width: 1300px; */
+    margin: 40px auto 0;
+  }
+
+  .header_meal h3 {
+    font-size: 36px;
+  }
+
+  .header_meal .price {
+    font-size: 36px;
   }
 }

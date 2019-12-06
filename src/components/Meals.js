@@ -76,7 +76,7 @@ const Meals = data => {
       <div className="header_meal">
         <h3> {item.name} </h3> <p className="price"> {item.price} </p>{" "}
       </div>{" "}
-      <p> {item.ingridents} </p>{" "}
+      <p className="ingridents"> {item.ingridents} </p>{" "}
     </div>
   ));
   return (
