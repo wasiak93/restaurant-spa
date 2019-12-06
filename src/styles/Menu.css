@@ -1,7 +1,6 @@
-.menu h1 {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 28px;
+.menu h2 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menu a {
@@ -26,4 +25,20 @@
 
 .menu a:first-of-type {
   margin-top: 50px;
+}
+
+@media (min-width: 1224px) and (max-width: 1823px) {
+  .menu a {
+    font-size: 24px;
+    width: 180px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1824px) {
+  .menu a {
+    font-size: 28px;
+    width: 250px;
+    padding: 20px;
+  }
 }
