@@ -1,5 +1,4 @@
 .contact {
-  padding-top: 40px;
   text-align: center;
 }
 
@@ -9,7 +8,7 @@
 }
 
 .contact p:nth-of-type(1) {
-  padding-top: 30px;
+  padding-top: 20px;
 
 }
 
