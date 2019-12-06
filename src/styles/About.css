@@ -61,10 +61,11 @@ p {
 @media (min-width: 1224px) and (max-width: 1823px) {
   h2 {
     font-size: 48px;
+    padding-top: 50px;
   }
 
   p {
-    padding: 70px 45px;
+    padding: 50px 45px;
     font-size: 24px;
   }
 }
