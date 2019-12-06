@@ -1,62 +1,28 @@
 .contact {
-  padding: 0 40px 40px 40px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .contact p {
-  padding: 10px;
+  text-align: center;
+  padding: 10px
 }
 
-.opinion {
-  margin-top: 50px;
+.contact p:nth-of-type(1) {
+  padding-top: 30px;
+
 }
 
-.opinion p {
-  font-size: 26px;
+@media (min-width: 1224px) and (max-width: 1823px) {
+  .contact p:nth-of-type(1) {
+    padding-top: 40px;
+
+  }
 }
 
-.opinion p:nth-of-type(2) {
-  font-size: 20px;
-}
+@media (min-width: 1824px) {
+  .contact p:nth-of-type(1) {
+    padding-top: 50px;
 
-.opinion form label {
-  margin-right: 10px;
-}
-
-.opinion form input {
-  padding: 2px;
-  font-size: 16px;
-  font-family: arial;
-  border: solid black 1px;
-}
-
-
-.opinion form textarea {
-  display: block;
-  margin: 20px auto 20px;
-  width: 300px;
-  height: 110px;
-  font-size: 16px;
-  padding: 5px;
-  line-height: 1.5;
-  border: black solid 1px;
-  font-family: arial;
-}
-
-.opinion form button {
-  display: block;
-  margin: auto;
-  font-size: 20px;
-  padding: 5px 25px;
-  border-radius: 10px;
-  background-color: white;
-  border: solid black 2px;
-  outline: none;
-  transition: .2s;
-}
-
-.opinion form button:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-  border-color: white
+  }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/Opinion.css";
 
 const Opinion = class Opinion extends Component {
   maxDate = new Date().toISOString().slice(0, 10);
@@ -27,7 +28,7 @@ const Opinion = class Opinion extends Component {
   render() {
     return (
       <div className="opinion">
-        <p>Byłeś już u nas?</p>
+        <h3>Byłeś już u nas?</h3>
         <p>Czekamy na Twoją opinię</p>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="date">Podaj datę swojej wizyty</label>
