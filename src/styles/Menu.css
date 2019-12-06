@@ -33,12 +33,25 @@
     width: 180px;
     padding: 15px;
   }
+
+  .main {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (min-width: 1824px) {
   .menu a {
-    font-size: 28px;
+    font-size: 24px;
     width: 250px;
     padding: 20px;
+  }
+
+  .main {
+    margin-bottom: 40px;
+  }
+
+  .menu h2 {
+    margin-top: 0;
   }
 }

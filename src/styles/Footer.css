@@ -2,7 +2,7 @@ footer p {
   text-align: center;
   color: white;
   font-style: italic;
-  padding: 12px 0px;
+  padding: 10px 0px 10px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -11,8 +11,14 @@ footer p {
   }
 }
 
+@media (min-width: 1224px) and (max-width: 1823px) {
+  footer p {
+    padding: 8px
+  }
+}
+
 @media (min-width: 1824px) {
   footer p {
-    padding: 20px
+    padding: 10px
   }
 }
