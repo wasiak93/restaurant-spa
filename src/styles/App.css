@@ -7,7 +7,9 @@
   font-family: arial;
 }
 
-
+.main {
+  background-color: #FEE2C7;
+}
 
 header {
   flex-basis: 40vh;
