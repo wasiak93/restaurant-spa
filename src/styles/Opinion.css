@@ -4,10 +4,12 @@
 
 h3 {
   font-size: 20px;
+  color: goldenrod;
 }
 
 .opinion form label {
   font-size: 14px;
+  color: goldenrod;
 }
 
 .opinion form input {
@@ -15,7 +17,9 @@ h3 {
   padding: 2px;
   font-size: 16px;
   font-family: arial;
-  border: solid black 1px;
+  border: solid goldenrod 1px;
+  color: goldenrod;
+  background-color: #FEE2C7;
 }
 
 
@@ -27,8 +31,10 @@ h3 {
   font-size: 16px;
   padding: 5px;
   line-height: 1.5;
-  border: black solid 1px;
+  border: goldenrod solid 1px;
   font-family: arial;
+  color: goldenrod;
+  background-color: #FEE2C7;
 }
 
 .opinion form button {
@@ -38,7 +44,8 @@ h3 {
   padding: 5px 25px;
   border-radius: 10px;
   background-color: white;
-  border: solid black 2px;
+  border: solid goldenrod 2px;
+  color: goldenrod;
   outline: none;
   transition: .2s;
 }

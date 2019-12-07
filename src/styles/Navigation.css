@@ -21,19 +21,12 @@
 
 .menu-item {
   margin-bottom: 20px;
-  color: white;
 }
-
-.menu-item a:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-
 
 .menu-item a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: goldenrod;
   cursor: pointer;
   width: 100%;
   padding: 5px 20px 5px 10px;
@@ -41,12 +34,18 @@
   font-weight: bold;
 }
 
+.menu-item a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+
 .main-nav .active {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+  border-right: 6px solid goldenrod;
 }
 
 .main-nav .active:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 @media (min-width: 360px) and (max-width: 479px) {

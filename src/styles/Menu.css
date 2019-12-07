@@ -10,17 +10,20 @@
   padding: 10px;
   font-size: 20px;
   text-align: center;
-  color: black;
+  color: goldenrod;
   text-decoration: none;
   text-transform: uppercase;
-  border: black solid 2px;
+  border: goldenrod solid 2px;
+  background-color: white;
   border-radius: 10px;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .menu a:hover {
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-color: white
 }
 
 .menu a:first-of-type {
@@ -35,7 +38,7 @@
   }
 
   .main {
-    margin-bottom: 20px;
+    padding: 20px;
   }
 
 }
@@ -48,7 +51,7 @@
   }
 
   .main {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   .menu h2 {
