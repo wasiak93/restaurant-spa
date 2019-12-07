@@ -24,6 +24,12 @@
   color: white;
 }
 
+.menu-item a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
 .menu-item a {
   display: inline-block;
   text-decoration: none;
@@ -36,6 +42,10 @@
 }
 
 .main-nav .active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-nav .active:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
