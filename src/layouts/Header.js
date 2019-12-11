@@ -22,7 +22,6 @@ class Header extends Component {
     const { width } = this.state;
 
     let imgActual = "";
-    console.log(width);
     if (width < 460) {
       imgActual = img1;
     } else if (460 <= width && width < 640) {
