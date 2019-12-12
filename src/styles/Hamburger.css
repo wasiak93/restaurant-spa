@@ -20,7 +20,7 @@
 .hamburger-box {
   position: relative;
   display: inline-block;
-  width: 40px;
+  width: 45px;
   height: 25px;
 
 }
@@ -112,18 +112,18 @@
   }
 
   .hamburger-inner::before {
-    top: -15px
+    top: -13px
   }
 
   .hamburger-inner::after {
-    top: 15px
+    top: 13px
   }
 
   .hamburger-active .hamburger-inner::before {
-    transform: translateY(15px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
   }
 
   .hamburger-active .hamburger-inner::after {
-    transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
   }
 }

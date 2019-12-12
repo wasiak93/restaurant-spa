@@ -8,18 +8,18 @@ h3 {
 }
 
 .opinion form label {
-  font-size: 14px;
+  font-size: 18px;
   color: goldenrod;
 }
 
 .opinion form input {
   margin: 20px 10px 10px 10px;
-  padding: 2px;
   font-size: 16px;
-  font-family: arial;
+  font-family: 'Dancing Script', cursive;
   border: solid goldenrod 1px;
   color: goldenrod;
-  background-color: #FEE2C7;
+  background-color: white;
+  border-radius: 5px;
 }
 
 
@@ -28,13 +28,15 @@ h3 {
   margin: 20px auto 20px;
   width: 250px;
   height: 110px;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 18px;
+  padding: 10px;
   line-height: 1.5;
   border: goldenrod solid 1px;
   font-family: arial;
   color: goldenrod;
-  background-color: #FEE2C7;
+  background-color: white;
+  border-radius: 20px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .opinion form button {
@@ -47,6 +49,7 @@ h3 {
   border: solid goldenrod 2px;
   color: goldenrod;
   outline: none;
+  font-family: 'Dancing Script', cursive;
   transition: .2s;
 }
 
@@ -97,7 +100,7 @@ h3 {
   }
 
   .opinion form label {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .opinion form input {
