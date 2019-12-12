@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/restaurant-spa/static/css/main.3269ad6e.chunk.css",
+    "main.css": "/restaurant-spa/static/css/main.c794f8db.chunk.css",
     "main.js": "/restaurant-spa/static/js/main.17b5fae5.chunk.js",
     "main.js.map": "/restaurant-spa/static/js/main.17b5fae5.chunk.js.map",
     "runtime-main.js": "/restaurant-spa/static/js/runtime-main.f7799aeb.js",
@@ -8,9 +8,9 @@
     "static/js/2.462c8a82.chunk.js": "/restaurant-spa/static/js/2.462c8a82.chunk.js",
     "static/js/2.462c8a82.chunk.js.map": "/restaurant-spa/static/js/2.462c8a82.chunk.js.map",
     "index.html": "/restaurant-spa/index.html",
-    "precache-manifest.935c40a78299fef5f9eca40c9cdc6494.js": "/restaurant-spa/precache-manifest.935c40a78299fef5f9eca40c9cdc6494.js",
+    "precache-manifest.5ff7cdc9e5852d40a424d4e35d9f1568.js": "/restaurant-spa/precache-manifest.5ff7cdc9e5852d40a424d4e35d9f1568.js",
     "service-worker.js": "/restaurant-spa/service-worker.js",
-    "static/css/main.3269ad6e.chunk.css.map": "/restaurant-spa/static/css/main.3269ad6e.chunk.css.map",
+    "static/css/main.c794f8db.chunk.css.map": "/restaurant-spa/static/css/main.c794f8db.chunk.css.map",
     "static/media/restaurant1.jpg": "/restaurant-spa/static/media/restaurant1.dc3de169.jpg",
     "static/media/restaurant2.jpg": "/restaurant-spa/static/media/restaurant2.05463906.jpg",
     "static/media/restaurant3.jpg": "/restaurant-spa/static/media/restaurant3.79d55171.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f7799aeb.js",
     "static/js/2.462c8a82.chunk.js",
-    "static/css/main.3269ad6e.chunk.css",
+    "static/css/main.c794f8db.chunk.css",
     "static/js/main.17b5fae5.chunk.js"
   ]
 }
