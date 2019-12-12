@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "463a1499bab728b72240c443d2926597",
+    "revision": "4dc90ab996c5282672020965443d1e93",
     "url": "/restaurant-spa/index.html"
   },
   {
-    "revision": "a23c457c5334f7843805",
-    "url": "/restaurant-spa/static/css/main.7cc57267.chunk.css"
+    "revision": "b3d087c2390c893a61bf",
+    "url": "/restaurant-spa/static/css/main.3269ad6e.chunk.css"
   },
   {
-    "revision": "4a9be8e4a87f55cc634b",
-    "url": "/restaurant-spa/static/js/2.03e147ee.chunk.js"
+    "revision": "6d40dc5e2b601edd75d1",
+    "url": "/restaurant-spa/static/js/2.462c8a82.chunk.js"
   },
   {
-    "revision": "a23c457c5334f7843805",
-    "url": "/restaurant-spa/static/js/main.c79d60ff.chunk.js"
+    "revision": "b3d087c2390c893a61bf",
+    "url": "/restaurant-spa/static/js/main.17b5fae5.chunk.js"
   },
   {
     "revision": "2340ad810386ba360b9c",
