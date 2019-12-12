@@ -1,0 +1,19 @@
+{
+  "short_name": "Smakowite Bistro",
+  "name": "Smakowite Bistro App",
+  "icons": [{
+      "src": "favicon.ico",
+      "sizes": "50x50",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FEE2C7",
+  "background_color": "#FEE2C7"
+}
