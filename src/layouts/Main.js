@@ -13,8 +13,8 @@ const Main = () => {
     <div>
       <Switch>
         <Route path="/" exact component={About} />
-        <Route path="/menu" exact component={Menu} />
-        <Route path="/menu/:id" component={Meals} />
+        <Route path= "/menu" exact component={Menu} />
+        <Route path= "/menu/:id" component={Meals} />
         <Route path="/contact" component={Contact} />
         <Route path="/prom" component={Prom} />
         <Route component={ErrorPage} />
